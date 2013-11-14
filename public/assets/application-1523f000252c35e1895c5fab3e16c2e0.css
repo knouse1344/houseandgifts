@@ -1,0 +1,129 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+body {
+  background: url("/assets/site_bg.jpg") repeat; }
+
+#container {
+  margin-top: 120px;
+  width: 900px;
+  min-height: 640px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#header {
+  width: 100%;
+  background: url("/assets/header_bg.jpg") repeat-x;
+  height: 126px; }
+  #header img {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -421px; }
+  #header #navigation {
+    background: url("/assets/header_leather.jpg") repeat-x;
+    z-index: 5;
+    width: 100%;
+    height: 64px;
+    position: relative;
+    top: 50px; }
+    #header #navigation #linkgrp {
+      text-align: center;
+      padding-top: 14px;
+      margin-left: auto;
+      margin-right: auto; }
+      #header #navigation #linkgrp a {
+        font-size: 1.5em;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-left: 40px;
+        margin-right: 40px;
+        opacity: .9;
+        text-shadow: 1px 2px #000;
+        text-transform: uppercase;
+        text-decoration: none; }
+#indexpage {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 125px; }
+  #indexpage #slider {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 600px;
+    border-bottom: 3px solid #cacaca;
+    background-color: #aaa;
+    opacity: .6; }
+  #indexpage .boxgrp {
+    position: relative;
+    top: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 100px;
+    opacity: .65;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none; }
+    #indexpage .boxgrp .boxlinkl {
+      width: 220px;
+      padding-top: 25px;
+      height: 75px;
+      background: #52300C;
+      float: left;
+      margin-right: 150px;
+      color: #fff; }
+    #indexpage .boxgrp .boxlinkr {
+      width: 200px;
+      height: 75px;
+      padding-top: 25px;
+      background: #52300C;
+      float: right;
+      color: #fff; }
+
+#aboutpage {
+  width: 960px;
+  padding-top: 20px;
+  height: 700px;
+  background: #52300C;
+  opacity: .8; }
+  #aboutpage .title {
+    color: #F7E300;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center; }
+
+#contactpage {
+  width: 960px;
+  padding-top: 20px;
+  height: 700px;
+  background: #52300C;
+  opacity: .8; }
+  #contactpage .title {
+    color: #F7E300;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center; }
