@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tobacco</title>
+  <title>Tobacco House & Gifts</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,700italic' rel='stylesheet' type='text/css'>
+  <meta name="description" content="Tobacco House & Gifts is your local Baltimore business for all your smoking needs.  We carry a full line of cigarettes, cigars, pipes, glassware, and smoking accessories.">
 </head>
-<body>
+	<body>
 
-<%= yield %>
+		<div id="header">
+			<a href="/welcome/index"><img src="/assets/header_logo.png" /></a>
+			<div id="navigation">
+				<div id="linkgrp">
+					<a href="/welcome/about"> About </a>
+					<a href="/welcome/contact"> Contact </a>
+					<a href="#"> Links </a>
+				</div>
+			</div>
+		</div>
 
-</body>
+		<div id="container">
+			<%= yield %>
+		</div>
+
+	</body>
 </html>
