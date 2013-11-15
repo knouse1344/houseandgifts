@@ -16,7 +16,8 @@
 		height: 600px;
 		margin-bottom: 600px;
 		border-bottom: 3px solid #cacaca;
-		background-color: #aaa;
+		background: url('/assets/slider_01.jpg');
+		background-size: cover;
 		opacity: .6;
 	}
 
@@ -85,5 +86,30 @@
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 700;
 		text-align: center;
+	}
+}
+
+#productpage {
+	width: 960px;
+	padding-top: 20px;
+	height: 760px;
+	background: #52300C;
+	opacity: .8;
+
+	.title {
+		color: #F7E300;
+		font-size: 2.5em;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	#products {
+		width: 334px;
+		height: 663px;
+		background: url('/assets/product_logos.png');
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
 	}
 }
