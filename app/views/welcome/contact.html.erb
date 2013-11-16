@@ -1,4 +1,24 @@
 <div id="contactpage">
 	<div class="title"> Contact Us </div>
 
+	<iframe width="450" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Tobacco+Hut+%26+Gifts,+South+Charles+Street,+Baltimore,+MD&amp;aq=1&amp;oq=tobacco+&amp;sll=39.278019,-76.614205&amp;sspn=0.007773,0.015814&amp;ie=UTF8&amp;hq=&amp;Tobacco+Hut+%26+Gifts,&amp;hnear=1003+South+Charles+Street,+Baltimore+Maryland+21230&amp;t=m&amp;ll=39.279125,-76.612923&amp;spn=0.005814,0.00912&amp;z=16&amp;output=embed"></iframe><br /><small></small>
+
+	<div class="left_col">	
+		<div class="name">Tobacco House and Gifts</div>
+		<h2> Address & Contact </h2>	
+		1003 South Charles Street</br>Baltimore, MD 21230</br>410 244 5019</br></br>
+		<a href="mailto:tobaccohouse1003@gmail.com">tobaccohouse1003@gmail.com</a>
+
+		<h2 style="margin-top: 60px;"> Get Directions </h2>
+		<p style="width: 250px;margin-top: 5px;">Enter your address below and we will generate directions for you.</p>
+		<div class="input"> 			
+			<%= form_tag('/maps') do %>
+			  <p>
+			    <%= text_field_tag 'address', nil, :placeholder => " Enter Address", class: "field" %>
+			    <%= submit_tag "Take me to Tobacco House!", class: "submit", :target => '_blank', :name => nil %>
+			  </p>
+			<% end %>
+		</div>
+	</div>
+
 </div>

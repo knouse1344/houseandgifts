@@ -14,51 +14,15 @@
 		left:0;
 		width: 100%;
 		height: 600px;
-		margin-bottom: 600px;
 		border-bottom: 3px solid #cacaca;
 		background: url('/assets/slider_01.jpg');
 		background-size: cover;
 		opacity: .6;
 	}
-
-	.boxgrp {
-		position: relative;
-		top: 675px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 960px;
-		height: 100px;
-		opacity: .65;
-		font-family: 'Open Sans', sans-serif;
-		font-size:2em;
-		font-weight: 700;
-		font-style: italic;
-		text-align: center;
-		text-decoration: none;
-
-		.boxlinkl {
-			width: 220px;
-			padding-top: 25px;
-			height: 75px;
-			background: #52300C;
-			float:left;
-			margin-right: 150px;
-			color: #fff;
-		}
-
-		.boxlinkr {
-			width: 200px;
-			height: 75px;
-			padding-top: 25px;
-			background: #52300C;
-			float:right;
-			color: #fff;
-		}		
-	}
 }
 
 #aboutpage {
-	width: 960px;
+	width: 900px;
 	padding-top: 20px;
 	height: 700px;
 	background: #52300C;
@@ -74,11 +38,11 @@
 }
 
 #contactpage {
-	width: 960px;
+	width: 900px;
 	padding-top: 20px;
-	height: 700px;
 	background: #52300C;
 	opacity: .8;
+	padding-bottom: 60px;
 
 	.title {
 		color: #F7E300;
@@ -86,11 +50,35 @@
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 700;
 		text-align: center;
+		text-shadow: 2px 2px #000;
+	}
+
+	iframe {
+		float: right;
+		margin-right: 30px;
+		margin-top: 30px;
+	}
+
+	.left_col {
+		margin-left: 30px;
+		margin-top: 15px;
+		color: #fff;
+
+		.name {
+			font-size: 1.75em;
+			font-family: 'Open Sans', sans-serif;
+			color: #F7E300;
+		}
+
+		a {
+			text-decoration: none;
+			color: #839CFC;
+		}
 	}
 }
 
 #productpage {
-	width: 960px;
+	width: 900px;
 	padding-top: 20px;
 	height: 760px;
 	background: #52300C;

@@ -1,9 +1,14 @@
 Tobacco::Application.routes.draw do
   
+  get "maps/create"
   get "welcome/index"
   get "welcome/about"
   get "welcome/contact"
   get "welcome/products"
+
+  get "maps/create"
+  match 'maps' => 'maps#create', via: :post
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
